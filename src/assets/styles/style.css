@@ -1,0 +1,38 @@
+/* other pages header styles */
+header{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* homepage header styles */
+.homepage-header{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* body styles */
+body {
+    background-color: rgb(221, 234, 239);
+}
+
+/* footer styles */
+footer {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* image styles at gallery page */
+
+img {   
+    max-width: 100%;
+    max-height: 400px;
+}
+
+/* google maps iframe styles  */
+
+iframe{
+    width: 45%; 
+    height: 60vh;
+}

@@ -1,0 +1,138 @@
+<!-- Reservation Page -->
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>The Urban Garden Restaurant/Reservation</title>
+        <!-- Latest Font-Awesome CDN -->
+        <script src="https://kit.fontawesome.com/ef99608374.js" crossorigin="anonymous"></script>
+        <!-- Link to the CSS file -->
+        <link rel="stylesheet" href="../../assets/styles/style.css">
+    </head>
+    <body>
+        <!-- Section One: Header Navigation -->
+        <header>  
+            <a href="../../../index.html">
+                <i class="fa fa-solid fa-arrow-left"></i> 
+                Back to Homepage
+            </a>
+        </header>
+        
+        <!-- Section Two: Intro -->
+        <center>
+            <h2>
+                <u>Contact Us/Make a Reservation</u>
+            </h2>
+            <form>
+                <table cellpadding="8">
+                    <tr align="center">
+                        <td>
+                            <label for="name">Name:
+                                <input type="text" id="name" required pattern="[A-Za-z]+" title="Please enter only alphabetic characters!" placeholder="Name Surname">
+                            </label>
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td>
+                            <label  for="email">Email:
+                                <input type="email" id="email" title="Please enter a valid email address!" required placeholder="example@gmail.com">
+                            </label>
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td>
+                            <label  for="phone">Phone:
+                                <input type="tel" id="phone" name="phone" pattern="(069|068|067)[0-9]{2}[0-9]{2}[0-9]{3}" title="Please enter only Albanian phone number format!" required placeholder="06x xx xx xxx">
+                            </label>
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td>
+                            <label for="date"> Date:
+                                <input type="date" id="date" required>
+                            </label>
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td>
+                            <label for="time"> Time:
+                                <input type="time" id="time" required>
+                            </label>
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td>
+                            <label for="people-number">Number Of People:
+                                <input type="number" id="people-number" min="1" max="50" required placeholder="1-50">
+                            </label>
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td>
+                            <label for="seating-preferences">Seating Preference:</label>
+                            <input type="radio" id="indoor" name="seating-preference">
+                            <label for="indoor">Indoor</label>
+                            <input type="radio" id="outdoor" name="seating-preference">
+                            <label for="outdoor">Outdoor</label>
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td>
+                            <label for="special-requests">
+                                Special Requests:
+                            </label>
+                            <label>
+                                <input type="checkbox" name="vegetarian-options" value="option1">
+                                Vegetarian Options
+                            </label>
+                            <label>
+                                <input type="checkbox" name="allergy-friendly" value="option2">
+                                Allergy Friendly
+                            </label>
+                            <label>
+                                <input type="checkbox" name="window-seat" value="option3">
+                                Window Seat
+                            </label>
+                            <label>
+                                <input type="checkbox" name="highchair" value="option4">
+                                Need a Highchair
+                            </label>
+                            <label>
+                                <input type="checkbox" name="special-occasion" value="option5">
+                                Celebrating a Special Occasion
+                            </label>
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td>
+                            <label for="notes">Additional Notes:</label>
+                            <br/>
+                            <textarea name="additional-info" id="additional-info" cols="30" rows="4" placeholder="Let us know for any other request here"></textarea>
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td>
+                            <button type="submit">
+                                Submit Reservation
+                            </button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </center>
+
+        <!-- Section Three: Footer Section -->
+        <footer>
+            <p>
+                <i class="fa-regular fa-copyright"></i> 2024 <b>·</b> The Urban Garden Restaurant <b>·</b> All rights
+                reserved
+            </p>
+            <p>
+                Follow us on <i class="fa-solid fa-angles-right"></i>
+                <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i> Instagram</a> &
+                <a href="https://www.tiktok.com"> <i class="fa-brands fa-tiktok"></i> TikTok!</a>
+            </p>
+        </footer>   
+    </body>
+</html>
